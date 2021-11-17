@@ -4,9 +4,11 @@ void main()
 {
   runApp(
     MaterialApp(
-      home: Center(
-        child : Text('Hello Welcome  !!'),
-      ),
+      home: Scaffold(
+        appBar:AppBar(
+          title: Text("first app"),
+        ),
+        ),
     ),
   );
 }
